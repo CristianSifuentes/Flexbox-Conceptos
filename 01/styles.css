@@ -23,7 +23,15 @@ h2 {
 }
 
 .contenedor-flex {
-    
+    /*siempre debo tener un contenedor de flex-box*/
+    display: inline-flex; /*convierte todos los hijos del contenedor en elementos flex-box*/
+    /*display: inline-flex;*/ /*Toma solo el espacio de los elementos del contenedor*/
+    border: 3px solid black;
+
+    /*direcciones: siempre se declaran en el contenedor del flex-box*/
+    /*por default es el flex-direction: row*/
+    /*flex-direction: row;*/
+    flex-direction: column-reverse;
 }
 
 .elemento-flex {
