@@ -31,7 +31,16 @@ h2 {
     /*direcciones: siempre se declaran en el contenedor del flex-box*/
     /*por default es el flex-direction: row*/
     /*flex-direction: row;*/
-    flex-direction: column-reverse;
+    flex-direction: row;
+
+    /*nowrap es el default*/
+
+    /*solo en el espacio*/
+    /*comunmente usa flex-direcion: row con flex-wrap: wrap*/
+    flex-wrap: wrap;
+
+    /*lo mismo pero en una linea de flex-direction: row y flex-wrap: wrap*/
+    /*flex-flow: row wrap;*/
 }
 
 .elemento-flex {
