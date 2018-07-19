@@ -59,6 +59,20 @@ space-around	Los elementos se colocan con espacio antes, entre y después de las
 initial	Establece esta propiedad a su valor predeterminado
 inherit	Hereda esta propiedad de su elemento principal.
 
+# align-items: stretch|center|flex-start|flex-end|baseline|initial|inherit;
+
+La propiedad align-items especifica la alineación predeterminada para los elementos dentro del contenedor flexible.
+
+
+stretch	Defecto. Los artículos se estiran para adaptarse al contenedor
+center	Los artículos se colocan en el centro del contenedor
+flex-startLos artículos se colocan al comienzo del contenedor
+flex-end	Los artículos se colocan al final del contenedor
+baseline	Los artículos se colocan en la línea de base del contenedor
+initial	Establece esta propiedad a su valor predeterminado
+inherit	Hereda esta propiedad de su elemento principal.
+
+
 
 
 
